@@ -1,0 +1,228 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6BC71711-D472-4364-A266-DF31E2B2F0DD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KartOkuyucu</RootNamespace>
+    <AssemblyName>KartOkuyucu</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44346</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Google.Apis, Version=1.55.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.55.0\lib\net45\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth, Version=1.55.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.55.0\lib\net461\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices, Version=1.55.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.55.0\lib\net461\Google.Apis.Auth.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.55.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Core.1.55.0\lib\net45\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices, Version=1.55.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.55.0\lib\net45\Google.Apis.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Sheets.v4, Version=1.55.0.2371, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Sheets.v4.1.55.0.2371\lib\net45\Google.Apis.Sheets.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\assets\demo\chart-area-demo.js" />
+    <Content Include="Content\assets\demo\chart-bar-demo.js" />
+    <Content Include="Content\assets\demo\chart-pie-demo.js" />
+    <Content Include="Content\assets\demo\datatables-demo.js" />
+    <Content Include="Content\assets\demo\date-range-picker-demo-single.js" />
+    <Content Include="Content\assets\demo\date-range-picker-demo.js" />
+    <Content Include="Content\assets\fonts\metropolis\SIL Open Font License.txt" />
+    <Content Include="Content\assets\img\backgrounds\bg-angles.svg" />
+    <Content Include="Content\assets\img\backgrounds\bg-pattern-shapes.png" />
+    <Content Include="Content\assets\img\backgrounds\bg-waves.svg" />
+    <Content Include="Content\assets\img\demo\cards\card-img-bottom.jpg" />
+    <Content Include="Content\assets\img\demo\cards\card-img-left.jpg" />
+    <Content Include="Content\assets\img\demo\cards\card-img-overlay.jpg" />
+    <Content Include="Content\assets\img\demo\cards\card-img-right.jpg" />
+    <Content Include="Content\assets\img\demo\cards\card-img-top.jpg" />
+    <Content Include="Content\assets\img\demo\demo-logo.svg" />
+    <Content Include="Content\assets\img\demo\demo-ocean-lg.jpg" />
+    <Content Include="Content\assets\img\demo\demo-ocean-sm.jpg" />
+    <Content Include="Content\assets\img\demo\pug.svg" />
+    <Content Include="Content\assets\img\favicon.png" />
+    <Content Include="Content\assets\img\illustrations\400-error-bad-request.svg" />
+    <Content Include="Content\assets\img\illustrations\401-error-unauthorized.svg" />
+    <Content Include="Content\assets\img\illustrations\403-error-forbidden.svg" />
+    <Content Include="Content\assets\img\illustrations\404-error-with-a-cute-animal.svg" />
+    <Content Include="Content\assets\img\illustrations\404-error.svg" />
+    <Content Include="Content\assets\img\illustrations\500-internal-server-error.svg" />
+    <Content Include="Content\assets\img\illustrations\503-error-service-unavailable.svg" />
+    <Content Include="Content\assets\img\illustrations\504-error-gateway-timeout.svg" />
+    <Content Include="Content\assets\img\illustrations\at-work.svg" />
+    <Content Include="Content\assets\img\illustrations\browser-stats.svg" />
+    <Content Include="Content\assets\img\illustrations\data-report.svg" />
+    <Content Include="Content\assets\img\illustrations\problem-solving.svg" />
+    <Content Include="Content\assets\img\illustrations\processing.svg" />
+    <Content Include="Content\assets\img\illustrations\profiles\profile-1.png" />
+    <Content Include="Content\assets\img\illustrations\profiles\profile-2.png" />
+    <Content Include="Content\assets\img\illustrations\profiles\profile-3.png" />
+    <Content Include="Content\assets\img\illustrations\profiles\profile-4.png" />
+    <Content Include="Content\assets\img\illustrations\profiles\profile-5.png" />
+    <Content Include="Content\assets\img\illustrations\profiles\profile-6.png" />
+    <Content Include="Content\assets\img\illustrations\statistics.svg" />
+    <Content Include="Content\assets\img\illustrations\team-spirit.svg" />
+    <Content Include="Content\assets\img\illustrations\windows.svg" />
+    <Content Include="Content\css\styles.css" />
+    <Content Include="GirisCikislistesi.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\js\scripts.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DATA\IRepository.cs" />
+    <Compile Include="DATA\Repository.cs" />
+    <Compile Include="GirisCikislistesi.aspx.cs">
+      <DependentUpon>GirisCikislistesi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GirisCikislistesi.aspx.designer.cs">
+      <DependentUpon>GirisCikislistesi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\KartBilgi.cs" />
+    <Compile Include="Models\ApiBilgi.cs" />
+    <Compile Include="Models\PersonelKartModel.cs" />
+    <Compile Include="Models\PersonelModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-Black.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-BlackItalic.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-Bold.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-BoldItalic.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-ExtraBold.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-ExtraBoldItalic.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-ExtraLight.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-ExtraLightItalic.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-Light.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-LightItalic.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-Medium.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-MediumItalic.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-Regular.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-RegularItalic.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-SemiBold.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-SemiBoldItalic.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-Thin.otf" />
+    <Content Include="Content\assets\fonts\metropolis\Metropolis-ThinItalic.otf" />
+    <Content Include="Content\assets\img\illustrations\CREDITS.md" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50425</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44346/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

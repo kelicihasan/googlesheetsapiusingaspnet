@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Administrator\Desktop\KartOkuyucu\KartOkuyucu\bin\app.publish\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Google.Apis.Auth.dll">
+      <publishTime>09/08/2021 18:54:18</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Auth.pdb">
+      <publishTime>09/08/2021 18:54:18</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Auth.PlatformServices.dll">
+      <publishTime>09/08/2021 18:54:20</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Core.dll">
+      <publishTime>09/08/2021 18:54:08</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Core.pdb">
+      <publishTime>09/08/2021 18:54:08</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.dll">
+      <publishTime>09/08/2021 18:54:16</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.pdb">
+      <publishTime>09/08/2021 18:54:16</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.PlatformServices.dll">
+      <publishTime>09/08/2021 18:54:18</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Sheets.v4.dll">
+      <publishTime>09/08/2021 19:13:54</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Sheets.v4.pdb">
+      <publishTime>09/08/2021 19:13:54</publishTime>
+    </File>
+    <File Include="bin/KartOkuyucu.dll">
+      <publishTime>10/28/2021 21:29:36</publishTime>
+    </File>
+    <File Include="bin/KartOkuyucu.pdb">
+      <publishTime>10/28/2021 21:29:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/17/2021 23:03:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="Content/assets/demo/chart-area-demo.js">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/demo/chart-bar-demo.js">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/demo/chart-pie-demo.js">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/demo/datatables-demo.js">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/demo/date-range-picker-demo-single.js">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/demo/date-range-picker-demo.js">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-Black.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-BlackItalic.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-Bold.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-BoldItalic.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-ExtraBold.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-ExtraBoldItalic.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-ExtraLight.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-ExtraLightItalic.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-Light.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-LightItalic.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-Medium.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-MediumItalic.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-Regular.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-RegularItalic.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-SemiBold.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-SemiBoldItalic.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-Thin.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/Metropolis-ThinItalic.otf">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/metropolis/SIL Open Font License.txt">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/backgrounds/bg-angles.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/backgrounds/bg-pattern-shapes.png">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/backgrounds/bg-waves.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/demo/cards/card-img-bottom.jpg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/demo/cards/card-img-left.jpg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/demo/cards/card-img-overlay.jpg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/demo/cards/card-img-right.jpg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/demo/cards/card-img-top.jpg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/demo/demo-logo.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/demo/demo-ocean-lg.jpg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/demo/demo-ocean-sm.jpg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/demo/pug.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/favicon.png">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/400-error-bad-request.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/401-error-unauthorized.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/403-error-forbidden.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/404-error-with-a-cute-animal.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/404-error.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/500-internal-server-error.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/503-error-service-unavailable.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/504-error-gateway-timeout.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/at-work.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/browser-stats.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/CREDITS.md">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/data-report.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/problem-solving.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/processing.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/profiles/profile-1.png">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/profiles/profile-2.png">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/profiles/profile-3.png">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/profiles/profile-4.png">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/profiles/profile-5.png">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/profiles/profile-6.png">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/statistics.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/team-spirit.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/assets/img/illustrations/windows.svg">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="Content/css/styles.css">
+      <publishTime>10/26/2021 12:59:05</publishTime>
+    </File>
+    <File Include="Content/js/scripts.js">
+      <publishTime>10/21/2021 12:05:05</publishTime>
+    </File>
+    <File Include="GirisCikislistesi.aspx">
+      <publishTime>10/28/2021 17:10:47</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/21/2021 11:26:43</publishTime>
+    </File>
+    <File Include="images/1111.png">
+      <publishTime>10/26/2021 14:33:32</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>10/26/2021 10:24:53</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>10/28/2021 14:18:12</publishTime>
+    </File>
+    <File Include="PersonelTakibi.aspx">
+      <publishTime>10/25/2021 11:45:04</publishTime>
+    </File>
+    <File Include="PersonelTanimlama.aspx">
+      <publishTime>10/28/2021 14:14:09</publishTime>
+    </File>
+    <File Include="SifreGuncelle.aspx">
+      <publishTime>10/27/2021 18:17:25</publishTime>
+    </File>
+    <File Include="Site1.Master">
+      <publishTime>10/28/2021 14:15:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/28/2021 21:29:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
